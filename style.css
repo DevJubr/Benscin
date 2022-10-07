@@ -99,9 +99,9 @@
 }
 html {
   scroll-behavior: smooth;
-  background-color: var(--body-bg);
 }
 body {
+background-color: var(--body-bg);
   font-family: var(--body-font);
   font-size: var(--body-font-size);
   color: var(--body-text-color);

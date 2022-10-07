@@ -1,43 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap");
-
-.for__light {
-  --body-bg: #f4f7fc;
-  --heading-text-color-blue: #151463;
-  --light-blue: #3b50df;
-  --light-blueII: #e1ecff;
-  --sub-bg: #ebeefd;
-  --small-text-color: #5a5f6c;
-  --deep-holoud: #fdb400;
-  --pink-color: #ff5771;
-  --deep--ashs: #627093;
-
-  /*  Font and typography   /*.5rem = 8px 1rem = 16px ...*/
-  --body-font: "Roboto", sans-serif;
-  --body-font-size: 1rem;
-  --biggest1-font-size: 3.5rem;
-  --biggest2-font-size: 2.5rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: 0.938rem;
-  --small-font-size: 0.813rem;
-  --smaller-font-size: 0.75rem;
-  --tiny-font-size: 0.625rem;
-
-  /* Font weightI */
-  --font-medium: 500;
-  --font-semi-bold: 600;
-  --font-bold: 900;
-  --pera-light: 200;
-  --pera-mid: 500;
-  --pera-bold: 600;
-
-  /* z-index */
-  --z-normal: 1;
-  --z-tooltip: 10;
-  --z-fixed: 100;
-}
 .for__dark {
   --body-bg: #082032;
   --heading-text-color-blue: #e1ecff;
@@ -75,6 +37,44 @@
   --z-tooltip: 10;
   --z-fixed: 100;
 }
+.for__light {
+  --body-bg: #f4f7fc;
+  --heading-text-color-blue: #151463;
+  --light-blue: #3b50df;
+  --light-blueII: #e1ecff;
+  --sub-bg: #ebeefd;
+  --small-text-color: #5a5f6c;
+  --deep-holoud: #fdb400;
+  --pink-color: #ff5771;
+  --deep--ashs: #627093;
+
+  /*  Font and typography   /*.5rem = 8px 1rem = 16px ...*/
+  --body-font: "Roboto", sans-serif;
+  --body-font-size: 1rem;
+  --biggest1-font-size: 3.5rem;
+  --biggest2-font-size: 2.5rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  --tiny-font-size: 0.625rem;
+
+  /* Font weightI */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 900;
+  --pera-light: 200;
+  --pera-mid: 500;
+  --pera-bold: 600;
+
+  /* z-index */
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
 
 /* Responsive typograph */
 /* @media screen and (min-width: 1024px) {

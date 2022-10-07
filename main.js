@@ -35,8 +35,8 @@ function onlyMoba() {
   });
 }
 const dark = () => {
-  html.classList.toggle("for__dark");
-  if (html.classList.contains("for__light")) {
+  html.classList.toggle("for__light");
+  if (html.classList.contains("for__dark")) {
     moon1.classList.remove("bi-moon");
     moon2.classList.remove("bi-moon");
     moon1.classList.add("bi-brightness-high");

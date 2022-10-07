@@ -2,9 +2,9 @@ const burgirIcon = document.querySelector(".bi-list");
 const XIcon = document.querySelector(".bi-x-lg");
 const menu__section = document.querySelector(".menu__section");
 const navbar = document.querySelector("nav.NAv");
-const moon1 = document.querySelector(".bi-moon");
-const moon2 = document.querySelector(".nav__icons>.bi-moon");
-const html = document.getElementsByTagName("html")[0];
+const moon1 = document.querySelector(".bi-brightness-high");
+const moon2 = document.querySelector(".nav__icons>.bi-brightness-high");
+const body = document.body;
 
 burgirIcon.addEventListener("click", () => {
   menu__section.style.opacity = "1";
@@ -35,20 +35,20 @@ function onlyMoba() {
   });
 }
 const dark = () => {
-  html.classList.toggle("for__light");
-  if (html.classList.contains("for__dark")) {
+  body.classList.toggle("for__light");
+
+  if (body.classList.contains("for__dark")) {
     moon1.classList.remove("bi-moon");
     moon2.classList.remove("bi-moon");
     moon1.classList.add("bi-brightness-high");
     moon2.classList.add("bi-brightness-high");
-  } else {
+  }
+  if (body.classList.contains("for__light")) {
     moon1.classList.add("bi-moon");
     moon2.classList.add("bi-moon");
     moon1.classList.remove("bi-brightness-high");
     moon2.classList.remove("bi-brightness-high");
   }
-  // moon2.classList.toggle("bi-");
-  // moon2.className.replace("bi-moon", "bi-brightness-high");
 };
 moon1.addEventListener("click", dark);
 moon2.addEventListener("click", dark);

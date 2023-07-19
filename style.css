@@ -1421,6 +1421,8 @@ button.btn.subscribe_btn {
   }
 }
 @media screen and (max-width: 375px) {
+  h1.main__title{
+  font-size: 3rem;}
   .subscribe_email_con {
     width: 100%;
   }
@@ -1557,6 +1559,8 @@ footer {
     color: white;
     font-weight: 300;
   }
+  h1.main__title{
+  font-size: 3.5rem;}
 }
 
 h1.main__title{
